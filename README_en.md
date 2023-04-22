@@ -129,10 +129,11 @@ epcsd-spring
   
 The following containers should start:
 
-* epcsd-spring_adminer_1 - adminer, an SQL client
-* epcsd-spring_kafka_1 - the kafka server
-* epcsd-spring_db_1 - the postgresql database
-* epcsd-spring_zookeeper_1 - kafka zookeeper
+* epcsd-spring-2023-adminer_1 - adminer, an SQL client
+* epcsd-spring-2023-kafka_1 - the kafka server
+* epcsd-spring-2023-productdb_1 - the postgresql database for the productcatalog service
+* epcsd-spring-2023-userdb_1 - the postgresql database for the user service
+* epcsd-spring-2023-zookeeper_1 - kafka zookeeper
 
 In order to verify that all containers are up and running, we will execute the following command:
 
