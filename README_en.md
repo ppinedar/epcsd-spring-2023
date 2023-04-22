@@ -143,19 +143,31 @@ In order to verify that all containers are up and running, we will execute the f
   
 We should see something like this:
 
-![Screenshot_1](https://user-images.githubusercontent.com/72941559/155118965-78bfa6f1-24e0-461c-92c4-63df919d2ac1.png)
+![Docker containers running](https://github.com/ppinedar/epcsd-spring-2023/blob/main/docker__containers_running.PNG)
 
 To check the operation, you can access the _Adminer_ panel at http://localhost:18080/ and make a query against the PostgreSQL DB that we have just instantiated with the following connection data:
 
+* productdb
 * Engine: PostgreSQL
-* Server: db
-* User: epcsd
-* Password: epcsd
-* Schema: epcsd
+* Server: productdb
+* User: product
+* Password: product
+* Schema: product
 
-<img width="513" alt="Screenshot_1" src="https://user-images.githubusercontent.com/72941559/156942365-9aa515cc-52fd-4c02-a21e-880911269985.png">
+![Adminer productdb 1](https://github.com/ppinedar/epcsd-spring-2023/blob/main/adminer1.PNG)
 
-<img width="546" alt="Screenshot_2" src="https://user-images.githubusercontent.com/72941559/156942408-cbcb773d-b33d-406c-ba37-db980e3dbf64.png">
+![Adminer productdb 2](https://github.com/ppinedar/epcsd-spring-2023/blob/main/adminer1_1.PNG)
+
+* userdb
+* Engine: PostgreSQL
+* Server: userdb
+* User: user
+* Password: user
+* Schema: user
+
+![Adminer userdb 1](https://github.com/ppinedar/epcsd-spring-2023/blob/main/adminer2.PNG)
+
+![Adminer userdb 2](https://github.com/ppinedar/epcsd-spring-2023/blob/main/adminer2_1.PNG)
 
 
 ### Microservices stubs
