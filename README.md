@@ -109,12 +109,14 @@ epcsd-spring-2023
 ├ epcsd-spring-2023-productcatalog
 └ epcsd-spring-2023-user
 ```
+
 <p align="right">(<a href="#top">ir arriba</a>)</p>
 
 
 ### Infraestructura básica (dockers)
 
-* Descargar ZIP / Clonar el repositorio <a href="https://github.com/ppinedar/epcsd-spring-2023">epcsd-spring-2023</a> en la carpeta de trabajo (_epcsd-spring-2023-main_ si se ha seguido la recomendación).
+* Descargar ZIP / Clonar el repositorio <a href="https://github.com/ppinedar/epcsd-spring-2023">epcsd-spring-2023</a> en la carpeta de trabajo (_epcsd-spring-2023_ si se ha seguido la recomendación).
+
 * Desde la carpeta, ejecutar el comando:
 
   ```sh
@@ -155,9 +157,10 @@ Para comprobar el funcionamiento, se puede acceder al panel _Adminer_ en http://
 
 <img width="546" alt="Screenshot_2" src="https://user-images.githubusercontent.com/72941559/156942408-cbcb773d-b33d-406c-ba37-db980e3dbf64.png">
 
+
 ### Esqueletos de microservicios
 
-* Descargar ZIP / Clonar los repositorios <a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog">epcsd-spring-2023-productcatalog</a>, <a href="https://github.com/ppinedar/epcsd-spring-2023-user">epcsd-spring-2023-user</a> y <a href="https://github.com/ppinedar/epcsd-spring-2023-notification">epcsd-spring-2023-notification</a> dentro de la carpeta de trabajo (_epcsd-spring-2023-main_ si se ha seguido la recomendación)
+* Descargar ZIP / Clonar los repositorios <a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog">epcsd-spring-2023-productcatalog</a>, <a href="https://github.com/ppinedar/epcsd-spring-2023-user">epcsd-spring-2023-user</a> y <a href="https://github.com/ppinedar/epcsd-spring-2023-notification">epcsd-spring-2023-notification</a> dentro de la carpeta de trabajo (_epcsd-spring-2023_ si se ha seguido la recomendación)
 * Abrir los proyectos en el entorno de desarrollo preferido
 * Verificar la correcta compilación y ejecución arrancando los proyectos y comprobando que se puede acceder a http://localhost:18081/swagger-ui/index.html y http://localhost:18082/swagger-ui/index.html
 
