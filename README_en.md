@@ -78,7 +78,7 @@ To set up the containers that are part of the basic infrastructure of the projec
 
 * 22181 - Apache Kafka (Zookeeper)
 * 19092 - Apache Kafka (Server)
-* 54320 - PostgreSQL
+* 54320, 54321 - PostgreSQL
 * 18080 - Adminer
 * 18081 - Used by the productcatalog microservice
 * 18082 - Used by the user microservice
