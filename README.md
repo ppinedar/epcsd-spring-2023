@@ -55,7 +55,7 @@
 Este es el proyecto de laboratorio de la asignatura EPCSD de la UOC. Se compone de 3 elementos (cada una tiene su repositorio GIT):
 
 * Un archivo <a href="https://github.com/ppinedar/epcsd-spring-2023/blob/main/docker-compose.yml">docker-compose.yml</a> para arrancar la infraestructura básica necesaria para poder ejecutar los servicios
-* Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog">ShowCatalog</a>
+* Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog">ProductCatalog</a>
 * Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-user">User</a>
 * Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-notification">Notification</a>
 
@@ -81,7 +81,7 @@ Para el funcionamiento de los contenedores que forman parte de la infraestructur
 * 19092 - Apache Kafka (Server)
 * 54320 - PostgreSQL
 * 18080 - Adminer
-* 18081 - Usado por el microservicio showcatalog
+* 18081 - Usado por el microservicio productcatalog
 * 18082 - Usado por el microservicio user
 
 Para evitar conflictos con otras aplicaciones instaladas, se han modificado los puertos por defecto de todas las aplicaciones. Aún así, si hubiera un conflicto por un puerto ya en uso, bastaría con modificar los puertos especificados en el archivo [docker-compose.yml](https://github.com/ppinedar/epcsd-spring-2023/blob/main/docker-compose.yml) para solucionar el problema. Este link de la documentación oficial de docker compose explica como modificar esta configuración mediante la opción _ports_: [Networking in Compose](https://docs.docker.com/compose/networking/).
