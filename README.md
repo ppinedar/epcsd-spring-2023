@@ -101,11 +101,11 @@ Es importante que reviséis con atención los requisitos de hardware y software 
 Una vez instalado Docker Compose, seguiremos con el esqueleto de proyecto. Se recomienda seguir la siguiente estructura de carpetas:
 
 ```
-epcsd-spring-2023-main
+epcsd-spring-2023
 ├ README.md
 ├ docker-compose.yml
-├ epcsd-spring-2023-user-main
-└ epcsd-spring-2023-productcatalog-main
+├ epcsd-spring-2023-user
+└ epcsd-spring-2023-productcatalog
 ```
 <p align="right">(<a href="#top">ir arriba</a>)</p>
 
