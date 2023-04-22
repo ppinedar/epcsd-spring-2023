@@ -63,8 +63,9 @@ This is the lab project for the SA course at the UOC. It is made up of 3 element
 
 ### Made with
 
-* [Docker](https://www.docker.com/)
+* [Docker](https://www.docker.com/) / [Docker Compose](https://github.com/docker/compose)
 * [Spring](https://spring.io/) / [Spring Boot](https://spring.io/projects/spring-boot)
+* [Maven](https://maven.apache.org/)
 * [Apache Kafka](https://kafka.apache.org/)
 * [PostgreSQL](https://www.postgresql.org/)
 
@@ -76,15 +77,15 @@ This is the lab project for the SA course at the UOC. It is made up of 3 element
 To set up the containers that are part of the basic infrastructure of the project, the following ports will be used:
 
 * 22181 - Apache Kafka (Zookeeper)
-* 2909 - Apache Kafka (Server)
+* 19092 - Apache Kafka (Server)
 * 54320 - PostgreSQL
-* 80800 - Adminer
-* 80801 - Used by the showcatalog microservice
-* 80802 - Used by the notification microservice
+* 18080 - Adminer
+* 18081 - Used by the productcatalog microservice
+* 18082 - Used by the user microservice
 
 To avoid conflicts with other installed applications, the default ports of all applications have been modified. Still, if there is a conflict over a port already in use, simply modifying the ports specified in the [docker-compose.yml](https://github.com/ppinedar/epcsd-spring/blob/main/docker-compose.yml) file will fix the problem. This link to the official docker compose documentation explains how to modify this configuration using the _ports_: [Networking in Compose](https://docs.docker.com/compose/networking/) option.
 
-__IMPORTANT NOTICE:__ The modified ports will also have to be changed in the microservices configuration (usually defined in the Spring application.properties file).
+__IMPORTANT NOTICE:__ The modified ports will also have to be changed in the microservices configuration (usually defined in the Spring _application.properties_ file).
 
 
 ## Installation
@@ -113,7 +114,7 @@ epcsd-spring
 
 ### Basic infrastructure (dockers)
 
-* Download the code in ZIP format or just clone the <a href="https://github.com/ppinedar/epcsd-spring">epcsd-spring</a> repository in the working folder (_epcsd-spring-2023_ if the recommendation has been followed).
+* Download the code in ZIP format or just clone the <a href="https://github.com/ppinedar/epcsd-spring-2023">epcsd-spring-2023</a> repository in the working folder (_epcsd-spring-2023_ if the recommendation has been followed).
 
 * From the work folder, run the command:
 
