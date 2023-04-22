@@ -143,20 +143,31 @@ Para verificar que se han levantado todos de manera correcta, ejecutaremos el si
 
 Deberíamos ver algo como esto:
 
-![Screenshot_1](https://user-images.githubusercontent.com/72941559/155118965-78bfa6f1-24e0-461c-92c4-63df919d2ac1.png)
+![Docker containers running](https://github.com/ppinedar/epcsd-spring-2023/blob/main/docker__containers_running.PNG)
 
-Para comprobar el funcionamiento, se puede acceder al panel _Adminer_ en http://localhost:18080/ y hacer alguna consulta contra la BBDD PostgreSQL que acabamos de instanciar con los siguientes datos de conexión:
+Para comprobar el funcionamiento, se puede acceder al panel _Adminer_ en http://localhost:18080/ y hacer alguna consulta contra las BBDDs PostgreSQL que acabamos de instanciar con los siguientes datos de conexión:
 
+* productdb
 * Motor: PostgreSQL
-* Servidor: db
-* Usuario: epcsd
-* Contraseña: epcsd
-* Esquema: epcsd
+* Servidor: productdb
+* Usuario: product
+* Contraseña: product
+* Esquema: product
 
-<img width="513" alt="Screenshot_1" src="https://user-images.githubusercontent.com/72941559/156942365-9aa515cc-52fd-4c02-a21e-880911269985.png">
+![Adminer productdb 1](https://github.com/ppinedar/epcsd-spring-2023/blob/main/adminer1.PNG)
 
-<img width="546" alt="Screenshot_2" src="https://user-images.githubusercontent.com/72941559/156942408-cbcb773d-b33d-406c-ba37-db980e3dbf64.png">
+![Adminer productdb 2](https://github.com/ppinedar/epcsd-spring-2023/blob/main/adminer1_1.PNG)
 
+* userdb
+* Motor: PostgreSQL
+* Servidor: userdb
+* Usuario: user
+* Contraseña: user
+* Esquema: user
+
+![Adminer userdb 1](https://github.com/ppinedar/epcsd-spring-2023/blob/main/adminer2.PNG)
+
+![Adminer userdb 2](https://github.com/ppinedar/epcsd-spring-2023/blob/main/adminer2_1.PNG)
 
 ### Esqueletos de microservicios
 
