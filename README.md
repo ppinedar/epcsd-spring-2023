@@ -78,7 +78,7 @@ Para el funcionamiento de los contenedores que forman parte de la infraestructur
 
 * 22181 - Apache Kafka (Zookeeper)
 * 19092 - Apache Kafka (Server)
-* 54320 - PostgreSQL
+* 54320, 54321 - PostgreSQL
 * 18080 - Adminer
 * 18081 - Usado por el microservicio productcatalog
 * 18082 - Usado por el microservicio user
