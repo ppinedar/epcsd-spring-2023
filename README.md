@@ -48,8 +48,7 @@
   </ol>
 </details>
 
-
-
+<!-- About this project -->
 ## Sobre este proyecto
 
 Este es el proyecto de laboratorio de la asignatura EPCSD de la UOC. Se compone de 3 elementos (cada una tiene su repositorio GIT):
@@ -60,7 +59,6 @@ Este es el proyecto de laboratorio de la asignatura EPCSD de la UOC. Se compone 
 * Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-notification">Notification</a>
 
 <p align="right">(<a href="#top">ir arriba</a>)</p>
-
 
 
 ### Hecho con
@@ -88,6 +86,7 @@ Para el funcionamiento de los contenedores que forman parte de la infraestructur
 Para evitar conflictos con otras aplicaciones instaladas, se han modificado los puertos por defecto de todas las aplicaciones. Aún así, si hubiera un conflicto por un puerto ya en uso, bastaría con modificar los puertos especificados en el archivo [docker-compose.yml](https://github.com/ppinedar/epcsd-spring-2023/blob/main/docker-compose.yml) para solucionar el problema. Este link de la documentación oficial de docker compose explica como modificar esta configuración mediante la opción _ports_: [Networking in Compose](https://docs.docker.com/compose/networking/).
 
 __AVISO IMPORTANTE:__ Los puertos que se modifiquen se tendran que cambiar también en la configuración de los microservicios (normalmente definidos en  el archivo _application.properties_).
+
 
 ## Instalación
 
