@@ -104,8 +104,9 @@ Una vez instalado Docker Compose, seguiremos con el esqueleto de proyecto. Se re
 epcsd-spring-2023
 ├ README.md
 ├ docker-compose.yml
-├ epcsd-spring-2023-user
-└ epcsd-spring-2023-productcatalog
+├ epcsd-spring-2023-notification
+├ epcsd-spring-2023-productcatalog
+└ epcsd-spring-2023-user
 ```
 <p align="right">(<a href="#top">ir arriba</a>)</p>
 
