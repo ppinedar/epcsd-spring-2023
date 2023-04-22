@@ -126,10 +126,10 @@ epcsd-spring-2023-main
 
 Deberían arrancarse los contenedores:
 
-* epcsd-spring-2023_adminer_1 - adminer, un cliente SQL
-* epcsd-spring-2023_kafka_1 - el servidor de kafka
-* epcsd-spring-2023_db_1 - la bbdd postgresql
-* epcsd-spring-2023_zookeeper_1 - kafka zookeeper
+* epcsd-spring_adminer_1 - adminer, un cliente SQL
+* epcsd-spring_kafka_1 - el servidor de kafka
+* epcsd-spring_db_1 - la bbdd postgresql
+* epcsd-spring_zookeeper_1 - kafka zookeeper
 
 Para verificar que se han levantado todos de manera correcta, ejecutaremos el siguiente comando:
   
