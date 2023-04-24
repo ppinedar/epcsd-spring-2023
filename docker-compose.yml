@@ -25,15 +25,25 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
   
-  db:
+  productdb:
     image: postgres
     platform: linux/amd64
     restart: always
     ports:
       - 54320:5432
     environment:
-      POSTGRES_USER: epcsd
-      POSTGRES_PASSWORD: epcsd
+      POSTGRES_USER: product
+      POSTGRES_PASSWORD: product
+      
+  userdb:
+    image: postgres
+    platform: linux/amd64
+    restart: always
+    ports:
+      - 54321:5432
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: user
 
   adminer:
     image: adminer
