@@ -54,9 +54,9 @@
 This is the lab project for the SA course at the UOC. It is made up of 3 elements (each one in its own GIT repository):
 
 * A <a href="https://github.com/ppinedar/epcsd-spring-2023/blob/main/docker-compose.yml">docker-compose.yml</a> file to startup the basic infrastructure needed to run the services
-* A folder for the <a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog">ProductCatalog</a> microservice
-* A folder for the <a href="https://github.com/ppinedar/epcsd-spring-2023-user">User</a> microservice
-* A folder for the <a href="https://github.com/ppinedar/epcsd-spring-2023-notification">Notification</a> microservice
+* A folder for the <a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog">ProductCatalog</a> microservice (<a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog-improved">improved version here</a>)
+* A folder for the <a href="https://github.com/ppinedar/epcsd-spring-2023-user">User</a> microservice (<a href="https://github.com/ppinedar/epcsd-spring-2023-user-improved">improved version here</a>)
+* A folder for the <a href="https://github.com/ppinedar/epcsd-spring-2023-notification">Notification</a> microservice (<a href="https://github.com/ppinedar/epcsd-spring-2023-notification-improved">improved version here</a>)
 
 <p align="right">(<a href="#top">go up</a>)</p>
 
