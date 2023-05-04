@@ -54,9 +54,9 @@
 Este es el proyecto de laboratorio de la asignatura EPCSD de la UOC. Se compone de 3 elementos (cada una tiene su repositorio GIT):
 
 * Un archivo <a href="https://github.com/ppinedar/epcsd-spring-2023/blob/main/docker-compose.yml">docker-compose.yml</a> para arrancar la infraestructura básica necesaria para poder ejecutar los servicios
-* Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog">ProductCatalog</a>
-* Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-user">User</a>
-* Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-notification">Notification</a>
+* Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog">ProductCatalog</a> (<a href="https://github.com/ppinedar/epcsd-spring-2023-productcatalog-improved">versión mejorada aquí</a>)
+* Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-user">User</a> (<a href="https://github.com/ppinedar/epcsd-spring-2023-user-improved">versión mejorada aquí</a>)
+* Una carpeta para el microservicio <a href="https://github.com/ppinedar/epcsd-spring-2023-notification">Notification</a> (<a href="https://github.com/ppinedar/epcsd-spring-2023-notification-improved">versión mejorada aquí</a>)
 
 <p align="right">(<a href="#top">ir arriba</a>)</p>
 
